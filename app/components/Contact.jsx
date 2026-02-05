@@ -5,7 +5,7 @@ import Image from 'next/image'
 import { motion } from "motion/react"
 
 
-const Contact = () => {
+const Contact = ({isDarkMode}) => {
 
 const [result, setResult] = useState("");
 

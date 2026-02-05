@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { serviceData, assets } from '@/assets/assets'
 import { motion } from "motion/react"
 
-const Services = () => {
+const Services = ({isDarkMode}) => {
   return (
     <motion.div 
     initial={{opacity: 0}}
