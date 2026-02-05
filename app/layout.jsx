@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Outfit, Ovo } from "next/font/google";
 import "./globals.css";
 
@@ -15,16 +14,12 @@ const ovo = Ovo({
 
 
 
-export const metadata: Metadata = {
+export const metadata = {
   title: "Portfolio - Alccommunity",
   description: "",
 };
 
-export default function RootLayout({ 
-  children 
-}: {
-   children: React.ReactNode;
-   }) {
+export default function RootLayout({children}) {
   return (
     <html lang="en" className="scroll-smooth">
       <body
